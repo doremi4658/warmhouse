@@ -1,0 +1,12 @@
+Установка температуры через монолит
+POST http://localhost:8080/temperature/set?location=bedroom&temperature=23.5
+
+Проверка температуры
+GET http://localhost:8080/temperature/get?location=bedroom
+
+Получение всех датчиков
+GET http://localhost:8080/temperature/get
+
+
+Проверка Device Service
+GET http://localhost:8081/devices

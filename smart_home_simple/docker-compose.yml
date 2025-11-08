@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  temperature-api:
+    build: ./temperature-api
+    ports:
+      - "8081:8081"
